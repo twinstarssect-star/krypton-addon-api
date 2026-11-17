@@ -1,0 +1,36 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+# Generated Java files and local dependency copies
+*.jar
+*.class
+*.dll
+*.exe
+*.zip
+*.args
+*.properties
+host-build/
+host-deps/
+example-build/
+api-test-build/
+sdk-build/
+build/
+target/
+.gradle/
+# Runtime evidence and machine data
+*.log
+*.log.gz
+logs/
+crash-reports/
+config/
+validation/
+.idea/
+.vscode/
+__pycache__/

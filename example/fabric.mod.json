@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "krypton_example_addon",
+  "version": "1.0.0",
+  "name": "Krypton Example Addon",
+  "environment": "client",
+  "entrypoints": {
+    "krypton-addon": [
+      "example.ExampleAddon"
+    ]
+  },
+  "depends": {
+    "krypton_addon_host": ">=1.0.0",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
